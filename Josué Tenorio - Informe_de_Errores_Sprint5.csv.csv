@@ -1,0 +1,104 @@
+Resumen,Clave de incidencia,ID de la incidencia,Tipo de Incidencia,Estado,Clave del proyecto,Nombre del proyecto,Tipo de proyecto,Responsable del proyecto,ID del responsable del proyecto,Descripción del proyecto,Prioridad,Resolución,Persona asignada,ID de la persona asignada,Informador,ID del informador,Creador,ID del creador,Creada,Actualizada,Vista por Última Vez,Resuelta,Fecha de vencimiento,Votos,Descripción,Entorno,Interesados,ID de los interesados,Estimación original,Trabajo restante estimado,Tiempo Trabajado,Relación de trabajo,Σ Estimación original,Σ Trabajo restante estimado,Σ Tiempo empleado,Nivel de Seguridad,Adjunto,Campo personalizado (Actual end),Campo personalizado (Actual start),Campo personalizado (Change reason),Campo personalizado (Change risk),Campo personalizado (Change type),Campo personalizado (Epic Color),Campo personalizado (Epic Name),Campo personalizado (Epic Status),Campo personalizado (Formularios abiertos),Campo personalizado (Formularios bloqueados),Campo personalizado (Formularios enviados),Campo personalizado (Impact),Campo personalizado (Issue color),Campo personalizado (Metas),Campo personalizado (Project overview key),Campo personalizado (Project overview status),Campo personalizado (Rank),Campo personalizado (Request Type),Campo personalizado (Sentiment),Campo personalizado (Start date),Campo personalizado (Story Points),Campo personalizado (Story point estimate),Campo personalizado (Target end),Campo personalizado (Target start),Campo personalizado (Team),Campo personalizado (Total de formularios),Campo personalizado (Vulnerability),Campo personalizado ([CHART] Date of First Response),Campo personalizado ([CHART] Time in Status),Campo personalizado (development),Categoría de estado,Categoría de estado cambiada
+"No se muestra el tiempo de preparación restante en la ""Pantalla de Seguimiento"" en el mapa",TQP5-6,10072,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,13/feb/25 11:41 AM,13/feb/25 11:42 AM,13/feb/25 11:41 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Abrir la aplicacion Urban Lunch*+
+# +*Elegír el restaurante*+
+# +*Agregar un platillo a la lista de pedidos*+
+# *Ir a la pantalla de confirmación del pedido*
+
+h3. +*Resultado esperado:*+ *En ""Pantalla de Seguimiento"" el mapa muestra el tiempo de preparación restante*
+
+h3. +*Resultado obtenido:*+  *En ""Pantalla de Seguimiento"" el mapa* +*NO*+ *se muestra el tiempo de preparación restante*
+
+h3. +*Severidad: Crítica*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,13/feb/25 11:42 AM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot_20250213_113929.png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10069,,,,,,,,,,,,,,,,,0|i000fb:,,,,,,,,,,,,,,Por hacer,13/feb/25 11:41 AM
+El importe total NO contiene el precio de la entrega en la pantalla de confirmación de pedido.,TQP5-5,10071,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,13/feb/25 10:22 AM,13/feb/25 11:42 AM,13/feb/25 11:40 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Abrir la aplicacion Urban Lunch*+
+# +*Elegír el restaurante*+
+# +*Agregar un platillo a la lista de pedidos*+
+# *Ir a la pantalla de confirmación del pedido*
+
+h3. +*Resultado esperado:*+ *La pantalla ""Confirmación del pedido"" muestra el importe total y contiene el precio de la entrega*
+
+h3. +*Resultado obtenido:*+  *La pantalla ""Confirmación del pedido"" muestra el importe total y* +*NO contiene el precio de la entrega*+
+
+h3. +*Severidad: Crítica*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,13/feb/25 10:25 AM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot 2025-02-13 at 10.25.29 a.m..png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10068,,,,,,,,,,,,,,,,,0|i000f3:,,,,,,,,,,,,,,Por hacer,13/feb/25 10:22 AM
+"Tocar ""-"" en la lista de platillos, NO te lleva a la pantalla de detalles del platillo",TQP5-4,10070,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,13/feb/25 10:01 AM,13/feb/25 10:04 AM,13/feb/25 10:25 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Abrir la aplicacion Urban Lunch*+
+# +*Elegír el restaurante*+
+# +*Tocar el botón “-”*+
+
+h3. +*Resultado esperado:*+ *Tocar en cualquier área de la lista, excepto +, te lleva a la pantalla de detalles del platillo*
+
+h3. +*Resultado obtenido:*+ *Tocar en cualquier área de la lista, excepto “+” y* +*“-”*+*, te lleva a la pantalla de detalles del platillo*
+
+h3. +*Severidad: Baja*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ev:,,,,,,,,,,,,,,Por hacer,13/feb/25 10:01 AM
+No se muestra ningún error al tener la geolocalización desactivada.,TQP5-3,10069,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,12/feb/25 8:38 PM,12/feb/25 8:41 PM,13/feb/25 9:59 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Desactivar la geolocalización*+
+# +*Abrir la aplicación Urban Lunch*+
+
+h3. +*Resultado esperado:*+ *Si no permites que la aplicación acceda a la geolocalización, aparece un mensaje de error.*
+
+h3. +*Resultado obtenido:*+ *Si no permites que la aplicación acceda a la geolocalización,* +*NO aparece un mensaje de error.*+
+
+h3. +*Severidad: Crítica*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000en:,,,,,,,,,,,,,,Por hacer,12/feb/25 8:38 PM
+No se muestra el tiempo estimado de entrega en la pantalla de confirmación de pedido.,TQP5-2,10068,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,12/feb/25 8:13 PM,13/feb/25 10:25 AM,13/feb/25 10:21 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Abrir la aplicacion Urban Lunch*+
+# +*Elegír el restaurante*+
+# +*Agregar un platillo a la lista de pedidos*+
+
+h3. +*Resultado esperado:*+ *La pantalla ""Confirmación del pedido"" tiene el tiempo estimado de entrega*
+
+h3. +*Resultado obtenido:*+ *La pantalla ""Confirmación del pedido""* +*NO*+ *tiene el tiempo estimado de entrega*
+
+h3. +*Severidad: Crítica*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,12/feb/25 8:14 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot_20250212_201439.png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10067,,,,,,,,,,,,,,,,,0|i000ef:,,,,,,,,,,,,,,Por hacer,12/feb/25 8:13 PM
+El diseño del nombre del restaurante se desborda en los detalles del platillo. ,TQP5-1,10067,Error,Tareas por hacer,TQP5,TripleTen QA Project 5,software,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,Medium,,,,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,12/feb/25 8:05 PM,13/feb/25 10:09 AM,13/feb/25 10:09 AM,,,0,"h2. +*Pasos a seguir:*+ 
+
+# +*Abrir la aplicacion Urban Lunch*+
+# +*Elegír el restaurante “The Aroma Lane”*+
+# +*Hacer click para abrir los detalles del platillo “Sopa de crutones”.*+
+
+h3. +*Resultado esperado: En la pantalla se encuentra el restaurante donde está disponible*+
+
+h3. +*Resultado obtenido: En la pantalla se encuentra el restaurante donde está disponible.*+ +*El diseño del nombre del restaurante se desborda.*+
+
+h3. +*Severidad: Alta*+","macOS Sequoia 15.2. 
+
+Android Studio Ladybug Feature Drop | 2024.2.2.
+
+Display: 5.5”
+
+Resolution: 1080x1920.",Josué Tenorio,712020:1ee758c8-9d04-4235-83d9-e1b870dff4c8,,,,,,,,,12/feb/25 7:56 PM;70f52172-809a-4ae2-a950-4cd1f95fc777;Screenshot_20250212_195540.png;https://tndjosue.atlassian.net/rest/api/3/attachment/content/10066,,,,,,,,,,,,,,,,,0|i000e7:,,,,,,,,,,,,,,Por hacer,12/feb/25 8:05 PM
