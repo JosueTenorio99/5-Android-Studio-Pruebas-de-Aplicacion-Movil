@@ -29,4 +29,6 @@ Este repositorio contiene la documentación y los resultados de las pruebas real
 
 #### 🐞📄 `Josué Tenorio - Informe_de_Errores_Sprint5.csv` → Archivo CSV con los informes de errores generados en **Jira** durante las pruebas.
 
+#### 📝 `Feedback Sprint 5.png` → Captura del feedback recibido en la revisión del sprint.
+
 #### 📜 `README.md` → Este archivo con la descripción del proyecto.
